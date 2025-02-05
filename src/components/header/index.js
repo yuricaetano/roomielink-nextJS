@@ -5,7 +5,6 @@ import "./styles.css";
 export function Header() {
   return (
     <header className="header">
-        <div>
             <Link href="/">
                 <Image 
                 src="/logoPreto.png" 
@@ -26,7 +25,6 @@ export function Header() {
                 Quero Anunciar
                 </Link>
             </nav>
-        </div>
     </header>
   );
 }
